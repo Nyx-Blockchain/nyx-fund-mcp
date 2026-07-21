@@ -1,0 +1,39 @@
+{
+  "name": "nyx-fund-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for hedge fund operations — fund fee calculators (management/performance fees, high-water mark), NAV validation, exposure analysis, and fund-ops docs search from Nyx Fund. Free public server, no API key required; connects Claude, Cursor, and any MCP client to nyxchain.org.",
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "hedge-fund",
+    "fund-accounting",
+    "fee-calculator",
+    "high-water-mark",
+    "nav",
+    "crypto-fund",
+    "fund-operations",
+    "claude",
+    "cursor",
+    "ai-agent"
+  ],
+  "license": "MIT",
+  "author": "Nyx Capital <jack@nyxchain.org> (https://nyxchain.org)",
+  "homepage": "https://nyxchain.org/developers/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyx-Blockchain/nyx-fund-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nyx-Blockchain/nyx-fund-mcp/issues"
+  },
+  "bin": {
+    "nyx-fund-mcp": "bin/nyx-fund-mcp.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
